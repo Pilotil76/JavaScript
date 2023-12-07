@@ -11,7 +11,7 @@ function printArray(myHeading)
     }
 }
 printArray("Original Array");
-students.push("Iwan");
+students.push(prompt("Add name"));
 printArray("Updated Array");
 students.sort ();
 printArray("Sorted Array");
