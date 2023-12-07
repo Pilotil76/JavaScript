@@ -1,5 +1,7 @@
 h1 {text-align: center;
     color: blue;}
 
-body {color: green}
-menu {color: red}
+body {color: green;
+      font-size: 20px;
+      }
+#menu {color: red;}

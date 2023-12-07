@@ -1,29 +1,33 @@
-for ( counter = 1 ; counter <= 10; counter = counter + 1 )
+window.alert("Hello World!");
+document.write("<center><h1>Hello World ! </h1></center>");
+document.write("<center><h2>Hello World ! </h2></center>");
+document.write("<center><p>Hello World ! </p></center>");
 
-{
-document.write ("<p>",counter, " x 6 = " ,counter*6," </p>" )
+/*define the varibles*/
+let x=3;
+let y=6;
+let z=8;
+/*calculate*/
+let A = x+y+z;
+let B= (2*x)+(3*z);
+let C= z-x;
+let D= A+B+C;
 
-}
-let multiplyBy = prompt ("Please enter a number:")
-for ( counter = 1 ; counter <= 10; counter = counter + 1 );
-{document.write("<p>", counter, "X", multiplyBy, "-", counter*miltiplyBy, "</p>")}
+console.log("A = ", A);
+console.log("B = ", B);
+console.log("C = ", C);
 
-/*
-let multiplyBy = prompt ("Please enter a number:")
-for ( counter = 10 ; counter >=1; counter = counter - 1 );
-{document.write("<p>", counter, "X", multiplyBy, "-", counter*miltiplyBy, "</p>")}*/
+window.alert(A);
+window.alert(B);
+window.alert(C);
 
-/* table
-let multiplyBy = prompt ("Please enter a number:")
-document.write("<table border=1>")
-for ( counter = 1 ; counter <= 10; counter = counter + 1 );
-{document.write("<tr><td>", counter, "</td><td>", multiplyBy, "</td><td>", counter*miltiplyBy, "</td></tr>")}
-document.write("</table>")*/
+window.document.write(`<p> x = ${x}</p>`);
+window.document.write("<p> y = " +y+ "</p>");
+window.document.write("<p> z = " ,z, "</p>");
 
-/*let counter =1;
-while (counter <=10 )
-{ document.write(counter);
-....
-....
-counter = counter+1;
-}*/
+document.write("<p>A = " , A ,"</p>");
+document.write("<p>B = " , B ,"</p>");
+document.write("<p>C = " , C ,"</p>");
+
+document.write("<p>C = " , C ,"</p>");
+
