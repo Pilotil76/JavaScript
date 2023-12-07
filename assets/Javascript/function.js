@@ -1,23 +1,18 @@
-
-/*let students = [""];
-
-
-for (let index = 0; newName = "" ; index = index + 1);
-newName = prompt("Please enter a new student name : " );
+let students = ["Olena", "Igor", "Komal", "Mila", "Abdul"] ;
 
 
-students.push (newName);
-document.write (students[index]);
-let numberOf*/
-let numberOfStudents = prompt("How many students?");
-document.write(numberOfStudents);
-let studentsNew = [];
-for (index = 0; index < numberOfStudents ; index = index + 1){
-studentsNew.push(prompt("Add name"));
-document.write("<p>", studentsNew[index], "</p>");
+function printArray(myHeading)
+{
+    document.write("<h1>", myHeading, "</h1>");
+    document.write("<hr>");
+    for (index = 0; index < students.length ; index = index + 1)
+    {
+    document.write("<p>", students[index], "</p>");
+    }
 }
-studentsNew.sort();
-document.write("<p> Sorted ", "</p>");
-for (index = 0; index < numberOfStudents ; index = index + 1){
-document.write("<p> ", studentsNew[index], "</p>");
-}
+printArray("Original Array");
+students.push("Iwan");
+printArray("Updated Array");
+students.sort ();
+printArray("Sorted Array");
+
